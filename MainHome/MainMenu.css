@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+		header {
+			text-align: center;
+			
+		}
+		h1 {
+			font-size: 60px;
+		}
+		h2 {
+			font-size: 5px;
+			border-bottom: solid 2px black;
+		}
+		ul {
+			text-align: center;
+			border-bottom: solid 2px black;
+			line-height: 3;
+			
+		}
+		li {
+			display: inline-block;
+			width: 150px;
+			border-right: solid 1px black;	
+			font-size: 15px;	
+		}
+		
+
+
+
+
+
