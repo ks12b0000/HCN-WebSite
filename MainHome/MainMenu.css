@@ -1,31 +1,73 @@
 @charset "UTF-8";
-
-
-		header {
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		body {
+			font-family: NanumGothic,sans-serif;
+			font-size: .75em;
+		}
+		#main3 {
+			text-align: center;	
+			margin-top: 80px;	
+		}
+		#main1 {
+			text-align: center;
+			font-size: 20px;
+			font-style: italic;
+			color: black;
+		}
+		#main2 {
+			text-align: center;
+			font-size: 18px;
+			font-style: italic;
+			color: black;
+		}
+		
+		.head {
 			text-align: center;
 			
 		}
-		h1 {
-			font-size: 60px;
+		.title {
+			font-size: 55px;
+			
 		}
-		h2 {
-			font-size: 5px;
-			border-bottom: solid 2px black;
+		
+		.title a {
+			text-decoration: none;
+			color: black;
 		}
-		ul {
+		.subtitle {
+			font-size: 5px;	
+		}
+		.main_menu {
 			text-align: center;
 			border-bottom: solid 2px black;
 			line-height: 3;
+			background-color: #2E2E2E;
 			
 		}
-		li {
+		.main_menu li {
 			display: inline-block;
-			width: 150px;
-			border-right: solid 1px black;	
-			font-size: 15px;	
+			width: 150px;	
+			font-size: 13px;		
+			padding: 0.3em	
+					
+		}
+		.main_menu a {
+			text-decoration: none;
+			color: #D8D8D8;
 		}
 		
+		#my_site {
+			list-style: none;
+			text-decoration: none;
 
+		}
+		#my_site a{
+			text-decoration: none;
+		}
+		
 
 
 
