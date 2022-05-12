@@ -16,29 +16,37 @@
 			font-size: 20px;
 			font-style: italic;
 			color: black;
+			word-spacing: 7px;
+			margin-top: 30px;
 		}
 		#main2 {
 			text-align: center;
 			font-size: 18px;
 			font-style: italic;
 			color: black;
+			word-spacing: 5px;
+			margin-top: 5px;
 		}
 		
 		.head {
 			text-align: center;
-			
 		}
 		.title {
 			font-size: 55px;
-			
+			letter-spacing: 5px;
+			position: relative;
+			bottom: 20px;
 		}
 		
 		.title a {
 			text-decoration: none;
-			color: black;
+			color: black;	
 		}
 		.subtitle {
-			font-size: 5px;	
+			font-size: 13px;	
+			position: relative;
+			bottom: 25px;
+			word-spacing: 3px;
 		}
 		.main_menu {
 			text-align: center;
@@ -61,11 +69,19 @@
 		
 		#my_site {
 			list-style: none;
-			text-decoration: none;
-
+			position: relative;
+			top: 16px;
+			font-size: 12px;
+			margin-left: 20px;				
+			height: 60px; 
+			word-spacing: 2px;
 		}
 		#my_site a{
 			text-decoration: none;
+		}
+
+		#my_site p {
+			margin: 3px;
 		}
 		
 
