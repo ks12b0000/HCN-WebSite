@@ -6,6 +6,8 @@
 		body {
 			font-family: NanumGothic,sans-serif;
 			font-size: .75em;
+			margin: 0;
+			padding: 0;
 		}
 		#main3 {
 			text-align: center;	
@@ -49,22 +51,37 @@
 			word-spacing: 3px;
 		}
 		.main_menu {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
 			text-align: center;
 			border-bottom: solid 2px black;
 			line-height: 3;
-			background-color: #2E2E2E;
-			
+			background-color: #2E2E2E;									
+		}
+		
+		#submenu {
+			margin-left: 0px;
+			padding-left: 0px;
+			list-style-type: none;
+			text-align: center;
+			line-height: 3;
+			font-size: 10px;
 		}
 		.main_menu li {
 			display: inline-block;
-			width: 150px;	
+			width: 120px;	
 			font-size: 13px;		
-			padding: 0.3em	
-					
+			padding: 0.3em;	
+			position: relative;
+				
+						
 		}
 		.main_menu a {
 			text-decoration: none;
 			color: #D8D8D8;
+			letter-spacing: 0.05em;
+			
 		}
 		
 		#my_site {
@@ -83,6 +100,30 @@
 		#my_site p {
 			margin: 3px;
 		}
+		
+		
+		#submenu {
+			position: absolute;
+			background-color: #2E2E2E;
+			opacity: 0;
+			visibility: hidden;
+			transition: all 0.15s ease-in;
+		}
+		#submenu li {
+			padding: 1px 2px;
+			border-bottom: 1px solid #1C1C1C;
+		}
+		#submenu li a {
+			color: #D8D8D8;
+			text-decoration: none;
+			font-size: 13px;
+		}
+		
+		.main_menu li:hover #submenu  {
+			opacity: 1;
+			visibility: visible;
+		}
+
 		
 
 
