@@ -64,7 +64,6 @@
 			margin-left: 0px;
 			padding-left: 0px;
 			list-style-type: none;
-			text-align: center;
 			line-height: 3;
 			font-size: 10px;
 		}
@@ -123,9 +122,55 @@
 			opacity: 1;
 			visibility: visible;
 		}
-
 		
+		.sidebar {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			width: 1100px;
+			margin: auto;
+			
+		}
+		.sidebar li {
+			list-style-type: none;
+		}
+		
+		aside {
+			width: 120px;
+			margin: 20px 0;
+			display: inline-block;
+		}
 
+		aside #sidemenu {
+			padding: 0px;
+			line-height: 150%;
+			
+		}
 
-
-
+		aside #sidemenu li {
+			margin: 20px;
+			text-align: center;		
+		}
+		aside #sidemenu li a {
+			text-decoration: none;
+			color: #999;
+			white-space: nowrap;
+			
+		}
+		aside .Route {
+			margin-top: 10px;
+			color: #999;
+			font-size: 100%;
+			text-align: center;
+			white-space: nowrap;
+		}
+		aside h2 {
+			font-size: 12px;
+			text-align: center;
+			margin: 20px;
+			color: #999;
+			border-bottom: 1px solid #E6E6E6;
+		}
+		aside .List {
+			border: 1px solid #E6E6E6;		
+		}
