@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CODINGTEST - BaekJoon</title>
+	<title>CODINGTEST - 입출력과 사칙연산</title>
 	<link rel="stylesheet" href="../MainHomeMenu/MainMenu.css" />
 </head>
 <body>
@@ -78,15 +78,44 @@
 				<span>></span>
 				BaekJoon
 				<span>></span>
-				BaekJoon1
+				입출력과 사칙연산
 			</span>
 			<div class="List">
 			<h2>토픽 목록</h2>
 				<ul id="sidemenu">
-					<li><a href="../sidebar/BaekJoon1.html">BaekJoon1</a></li>
+					<li><a href="../sidebar/BaekJoon1.html">입출력과 사칙연산</a></li>
 				</ul>
 			</div>
 		</aside>
+	</div>
+	<div class="entry-area">
+		<hgroup>
+			<h1 class="entry-title"> 백준 Coding Test 입출력과 사칙연산 문제풀이.<br>(JAVA 언어 사용)</h1>		
+		</hgroup>		
+		<div class="entry-content-title">
+			<h2>문제번호 : 2557번 </h2>	
+			<h2>제목 : Hello World </h2>
+			<h2>Hello World! 출력하기.</h2>
+			<br>
+				<div class="entry-content">
+					<p id="p1">&#210; 풀이</p>
+					<p>- 방법 1  ( System 클래스 - 표준 입출력 )</p>	
+					<img src="Codeimg/HelloWorld.JPG">
+					<p>- 방법 2  ( BufferedWriter사용 )</p>
+					<img src="Codeimg/HelloWorldBw.JPG">
+					<p> 백준 알고리즘에서는 Class명을 Main으로 해주어야 한다<br>
+						BufferedWriter / BufferedReader는 Buffer에 있는 IO 클래스인데 이 클래스들은 데이터를 하나씩 읽어오는 것이 아니라 <br> 임시 공간(버퍼)에 저장해두었다가 한 번에 출력 또는 데이터를 보내는 방식이다.
+						<br>
+						즉,  예로들어 1000개의 데이터를 1개씩 보내는게 아니라 임시로 한 공간에 담아둔 뒤 한 번에 보내는 방법이니 당연 성능면에서 우수하다.
+						<br>
+						(속도가 빠르다고 이해하면 빠르다. 물론 빠른 이유가 이 뿐만이 아니다. )
+						<br>
+						특히 scanner 는 bufferedReader 보다 상당히 느리다.
+						 
+					
+					</p>
+				</div>		
+		</div>
 	</div>
 </body>
 </html>
