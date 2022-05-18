@@ -88,7 +88,7 @@
 			position: relative;
 			top: 16px;
 			font-size: 12px;
-			margin-left: 20px;				
+			margin-left: 40px;				
 			height: 60px; 
 			word-spacing: 2px;
 		}
@@ -97,8 +97,8 @@
 			color: #0969da;
 		}
 
-		#my_site p {
-			margin: 3px;
+		#my_site li {
+			margin: 4px;
 		}
 		
 		
@@ -192,4 +192,19 @@
 		}
 		.entry-content #p1 {
 			font-size: 20px;
+		}
+
+		#right_nav {
+			text-align: right;
+			list-style: none;
+			position: relative;
+			bottom: 25px;
+			font-size: 12px;
+			margin-right: 40px;				
+			height: 60px; 
+			word-spacing: 2px;
+			
+		}
+		#rigth_nav ul {			
+			margin: 4px;
 		}
