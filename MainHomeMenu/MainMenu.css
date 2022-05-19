@@ -194,17 +194,19 @@
 			font-size: 20px;
 		}
 
-		#right_nav {
+		#right_nav {			 
 			text-align: right;
 			list-style: none;
 			position: relative;
-			bottom: 25px;
+			bottom: 50px;
 			font-size: 12px;
-			margin-right: 40px;				
-			height: 60px; 
-			word-spacing: 2px;
-			
+			margin-right: 40px;				 
+			word-spacing: 2px; 			
 		}
-		#rigth_nav ul {			
-			margin: 4px;
+		#right_nav ul li {	
+		 	display:inline;	 	
+		}		
+		#right_nav a {
+			text-decoration: none;
+			color: black;
 		}
